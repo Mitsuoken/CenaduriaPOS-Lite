@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>CenaduriaPOS Lite</title>
+
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#e8590c" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</head>
+<body>
+
+  <header>
+    <h1>🌮 CenaduriaPOS Lite</h1>
+    <div class="subt">Selecciona una cuenta para tomar el pedido</div>
+  </header>
+
+  <div class="contenedor">
+
+    <div class="seccion-titulo">🍽 Mesas</div>
+    <div class="grid-cuentas" id="listaMesas"></div>
+
+    <div class="seccion-titulo">🛍 Para llevar</div>
+    <div class="grid-cuentas" id="listaLlevar"></div>
+
+    <button class="btn-historial" onclick="window.location.href='historial.html'">
+      📋 Ver historial de ventas
+    </button>
+
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    pintarCuentas();
+  </script>
+</body>
+</html>

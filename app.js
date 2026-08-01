@@ -9,6 +9,7 @@ const productos = [
   // Antojitos
   { id: 1, categoria: "Antojitos", nombre: "Pozole Grande", precio: 90 },
   { id: 2, categoria: "Antojitos", nombre: "Pozole Chico", precio: 70 },
+   { id: 23, categoria: "Antojitos", nombre: "Pozole Niño", precio: 50 },
   { id: 3, categoria: "Antojitos", nombre: "Gordita Sencilla", precio: 30 },
   { id: 4, categoria: "Antojitos", nombre: "Gordita Doble", precio: 35 },
   { id: 5, categoria: "Antojitos", nombre: "Quesadilla Sencilla", precio: 30 },

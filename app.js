@@ -25,10 +25,11 @@ const productos = [
   { id: 15, categoria: "Bebidas", nombre: "Coca Cola", precio: 35 },
   { id: 16, categoria: "Bebidas", nombre: "Aditas", precio: 20 },
   { id: 17, categoria: "Bebidas", nombre: "Coca Chaparrita", precio: 25 },
-  { id: 18, categoria: "Bebidas", nombre: "Jarritos 2 litros", precio: 40 },
-  { id: 19, categoria: "Bebidas", nombre: "Adotas 2 litros", precio: 50 },
-  { id: 20, categoria: "Bebidas", nombre: "Coca Cola 2 litros", precio: 60 },
-  { id: 21, categoria: "Bebidas", nombre: "Coca Cola 3 litros", precio: 70 },
+   { id: 18, categoria: "Bebidas", nombre: "Jugo Boing", precio: 25 },
+  { id: 19, categoria: "Bebidas", nombre: "Jarritos 2 litros", precio: 40 },
+  { id: 20, categoria: "Bebidas", nombre: "Adotas 2 litros", precio: 50 },
+  { id: 21, categoria: "Bebidas", nombre: "Coca Cola 2 litros", precio: 60 },
+  { id: 22, categoria: "Bebidas", nombre: "Coca Cola 3 litros", precio: 70 },
 ];
 
 /* Lista fija de cuentas disponibles */
